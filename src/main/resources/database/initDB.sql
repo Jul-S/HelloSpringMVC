@@ -1,0 +1,8 @@
+CREATE TABLE test.users (
+  id INT(8) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(25) NOT NULL,
+  age INT NOT NULL,
+  isAdmin BIT NOT NULL,
+  createDate TIMESTAMP NOT NULL,
+  PRIMARY KEY (ID));
+
